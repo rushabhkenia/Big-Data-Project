@@ -2,6 +2,9 @@ import sys
 import numpy as np
 import pandas as pd
 
+#Get latitude and longitude form incidents data
+#This table conforms to Texas A&M geoservices' bulk request format
+
 if __name__ == "__main__":
   if len(sys.argv) != 2:
     print("Requires 1 input file", file=sys.stderr)

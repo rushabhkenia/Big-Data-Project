@@ -8,6 +8,9 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 START = 0
 
+#Get zip code from latitude and longitude
+#start with row no. START
+#first column is index number
 user_agent = 'user_id_{}'.format(randint(10000,99999))
 geocoder = Nominatim(user_agent = user_agent)
 

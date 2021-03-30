@@ -4,6 +4,9 @@ import pandas as pd
 START = 'Zip Code'
 CATEGORY = 'All'
 
+#get 3 year average household income from median income.csv
+#only includes the zip code section
+
 if __name__ == "__main__":
   if len(sys.argv) != 2:
     print("Requires 1 input file", file=sys.stderr)

@@ -5,6 +5,9 @@ START = 'Zip Code'
 CATEGORY = 'All'
 YEAR = 2019
 
+#Get household income by each zip code region
+#One Year only
+
 if __name__ == "__main__":
   if len(sys.argv) != 2:
     print("Requires 1 input file", file=sys.stderr)

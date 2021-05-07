@@ -96,7 +96,8 @@ various kinds of visualizations. For this we used Numpy, Pandas,
 Geopandas, Matplotlib, Plotly and Seaborn.
 We started our data analysis by using various visualizations such
 as bar graph, maps , pie-chart, line-chart, to give a better understanding
-of the data which we used. We compared
+of the data which we used. We compared the analysis of
+historic data and the Covid period data.
 
 
 
